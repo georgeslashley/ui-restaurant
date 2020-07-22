@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- Commence le Lundi 20 Juillet 2020 -->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <link rel="stylesheet" href="../css/index.css">
+        <title>Tasty's - UI Restaurant</title>
+    </head>
+    <body>
+        <header>
+            <section id="topNav" class="">
+                <div id="brandDiv" class="">
+                    <a href="../html/index.html" id="brandLogo">Tasty's</a>
+                </div>
+                <div id="navDiv" class="">
+                    <ul>
+                        <li class="main" id="">
+                            <a href="">Acceuil</a>
+                            <span class="yBorder"></span>
+                        </li>
+                        <li class="" id="">
+                            <a href="">Notre Cuisine</a>
+                            <span class="yBorder"></span>
+                        </li>
+                        <li class="" id="">
+                            <a href="">A Propos</a>
+                            <span class="yBorder"></span>
+                        </li>
+                        <li class="" id="">
+                            <a href="">Contacts</a>
+                            <span class="yBorder"></span>
+                        </li>
+                    </ul>
+                </div>
+                <div id="iconsDiv" class="">
+                    <div id="searchDiv">
+                        <form action="" id="searchDivForm">
+                            <button id="searchBtn" data-checked="0"><img src="../svg/search.svg"></button>
+                            <input placeholder="Quel plat vous ferait plaisir ?" id="searchInput">
+                        </form>
+                    </div>
+                    <a href="" id="userProfile"><img src="../svg/user.svg"></a>
+                    <button id="menuBookBtn">
+                        <img src="../svg/menubook.svg">
+                        <span id="notifCircle" class="on"></span>
+                    </button>
+                </div>
+                <div id="respMenu">
+                    <button><img src="../svg/menushow.svg"></button>
+                </div>
+            </section>
+            
+            <section id="hero" class="">
+                <div class="heroMainDiv" id="topHero">
+                    <div class="topHeroDiv" id="leftMain">
+                        <div class="heroSide">
+                            <div class="borderedDiv"></div>
+                            <div class="unBorderedDiv">
+                                <a href=""><img src="../svg/facebook.svg" class="socialsLink"></a>
+                                <a href=""><img src="../svg/twitter.svg" class="socialsLink"></a>
+                                <a href=""><img src="../svg/instagram.svg" class="socialsLink"></a>
+                            </div>
+                        </div>
+                        <div id="leftMainContent">
+                            <div class="" id="presentDiv">
+                                <div class="headerSent">
+                                    <h2><span style="color:var(--yellow)">Plats</span> Gouteux,</h2>
+                                    <h3><span style="color:var(--orange)">Corps</span> En Sante.</h3>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut massa ut alliquet non arcu. Amet tellus proin tempor.</p>
+                                <button id="createMenuBtn">Creer un menu</button>
+                            </div>
+                            <div class="" id="weekOfferDiv">
+                                <div class="" id="offerTitle">
+                                    <h4>Specialite de la semaine</h4>
+                                </div>
+                                <div class="" id="offerDishName">
+                                    <h3>Filet de Poisson aux Petits Legumes</h3>
+                                    <p class="price">340<span class="devise">HTG</span></p>
+                                </div>
+                                <div class="" id="offerDishImgDiv">
+                                    <div style="margin-right:15px;" id="dishImgDiv">
+                                        <img src="../img/weekOffer.jpg">
+                                    </div>
+                                    <div id="boxSelect">
+                                        <div id="sizeSelectDiv"></div>
+                                        <div id="nmbrSelectDiv"></div>
+                                        <button id="addOfferDishBtn">Ajouter au menu</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="topHeroDiv" id="rightMain">
+                        <div id="rightMainContent"></div>
+                        <div class="heroSide">
+                            <div class="borderedDiv"></div>
+                            <div class="unBorderedDiv"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="heroMainDiv" id="bottomHero">
+                    <button><img src="../svg/call.svg"></button>
+                    <button><img src="../svg/location.svg"></button>
+                </div>
+            </section>
+        </header>
+        <main></main>
+        <footer></footer>
+        <script type="text/javascript" src="../js/index.js"></script>
+    </body>
+</html>
